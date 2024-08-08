@@ -1,0 +1,6 @@
+
+* Scenario1_36x_run1.csv
+Output from behavioural space in Netlogo, from the spatially explicit wolf model
+
+* files.asc
+Spatially explicit output from netlogo containing the cells relative positions and one value assigned to the cells.
