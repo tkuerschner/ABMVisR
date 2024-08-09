@@ -16,3 +16,9 @@
 hello <- function() {
   print("Hello, world!")
 }
+
+
+
+t1 <- read.csv("test_data/wolf_model_spatial_data/Scenario1_36x_run1.csv", header = TRUE, skip = 6)
+
+str(t1)
