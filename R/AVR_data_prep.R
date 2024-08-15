@@ -1,7 +1,7 @@
 #' Summarize Simulation Data with Dynamic Grouping
 #'
 #' This function processes simulation data, either count-based or individual-based,
-#' and summarizes it based on the presence of id and scenario columns.
+#' and summarizes it based on the presence of id, scenario and grouping columns.
 #'
 #' @param data A dataframe containing raw input data.
 #' @param data_type A string indicating the type of data: either "count" or "individual".
@@ -10,7 +10,7 @@
 #' @param scenario_col (Optional) The name of the column representing the scenario identifier. Default is NULL.
 #' @param target_cols A vector of column names to summarize or count over time.
 #' @param group_cols (Optional) A vector of columns to group by before summarizing. Default is NULL.
-#' @return A summarized dataframe showing the requested summaries over time.
+#' @return A list of summarized dataframe showing the requested summaries over time.
 summarize_simulation_data <- function(data,
                     data_type,
                     time_col,
