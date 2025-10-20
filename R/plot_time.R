@@ -1,4 +1,4 @@
-#' Plotting over time
+#' Plotting simulated data over time
 #'
 #' This function plots responses in the the summarised over time, either for individual runs or as an average.
 #' It also allows to use the grouping variables.
