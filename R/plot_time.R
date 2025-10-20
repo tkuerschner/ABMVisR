@@ -18,6 +18,7 @@
 #' @return: a ggplot of the selected variables over time.
 
 
+
 time_plot <- function(plotdata, response, time, plot_type = "all",
                       id_col = "run_id", group, scenario, time_scale){
 
